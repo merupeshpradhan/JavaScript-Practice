@@ -28,7 +28,12 @@ for (let valu of arrayValus) {
 let object = {
   name: "Manas",
   number: 7327001410,
+  village: "Bhalubahal",
 };
+console.log(object);
+delete object.village;
+console.log(object);
+
 
 let objectValues = {
   first: {

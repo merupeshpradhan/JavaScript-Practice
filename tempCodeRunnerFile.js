@@ -1,5 +1,3 @@
-const datas = ["Rupesh", "Manas", "Amiya", "Adii"];
-
-for (const data of datas) {
-  console.log(data);
+for (let value in obj) {
+  console.log(obj[value]);
 }
