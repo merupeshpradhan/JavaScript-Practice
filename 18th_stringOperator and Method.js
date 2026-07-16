@@ -12,7 +12,6 @@ console.log(`\nSmall Text: ${smallName.toLowerCase()}`);
 
 // Print text occurindg to number
 let village = "Bhalubahal";
-console.log();
 console.log(
   `\nFrome village name print this type slice(start):  ${village.slice(4)}`,
 );
