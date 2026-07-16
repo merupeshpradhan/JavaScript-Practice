@@ -14,8 +14,8 @@ for (let i = 0; i < Object.keys(obj).length; i++) {
 // 2) Write a progrma Q1 using for in loop
 console.log("\nUsing for in loop:");
 
-for (let value in obj) {
-  console.log(`${value} Mark is ${obj[value]}`);
+for (let key in obj) {
+  console.log(`${key} Mark is ${obj[key]}`);
 }
 
 // 3) Write a program to print "try again" until the user enters the correct number.
