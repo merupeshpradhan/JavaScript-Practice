@@ -13,10 +13,10 @@ console.log(`\nSmall Text: ${smallName.toLowerCase()}`);
 // Print text occurindg to number
 let village = "Bhalubahal";
 console.log(
-  `\nFrome village name print this type slice(start):  ${village.slice(4)}`,
+  `\nFrome village name print this type slice(start frrom key(4)):  ${village.slice(4)}`,
 );
 console.log(
-  `\nFrome village name print this type slice(start, end):  ${village.slice(2, 4)}`,
+  `Frome village name print this type slice(start key(2), end key(4)):  ${village.slice(2, 4)}`,
 );
 
 // Changing name using .replace()
@@ -31,8 +31,12 @@ let name2 = "Adii";
 let name3 = "Amiya";
 let name4 = "Manas";
 
-let connectName = name1.concat(name2, name3, name4, "yes");
-console.log(`\nNow connect name are ${connectName}`);
+console.log(`\n${name1} friend are ${name2}, ${name3} and ${name4}`);
+
+// Remove the space using .trim()
+let school = "           Panchayat High School        ";
+console.log("\n",school);
+console.log(school.trim());
 
 // Geting Charcter from one text
 let name = "Rupesh";
