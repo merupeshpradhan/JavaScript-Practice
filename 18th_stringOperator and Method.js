@@ -35,9 +35,24 @@ console.log(`\n${name1} friend are ${name2}, ${name3} and ${name4}`);
 
 // Remove the space using .trim()
 let school = "           Panchayat High School        ";
-console.log("\n",school);
+console.log("\n", school);
 console.log(school.trim());
 
 // Geting Charcter from one text
 let name = "Rupesh";
 console.log(`\nName first word of Rupesh name: ${name[0]} \n`);
+
+// QuickQuiz:- Using for loop print a string.
+
+let fullName = "Rupesh Pradhan";
+let removeSpaceFullName = fullName.replace(" ", "");
+
+for (let key = 0; key < removeSpaceFullName.length; key++) {
+  let element = removeSpaceFullName[key];
+  console.log(`${key + 1}) ${element}`);
+}
+
+// Remove all soace
+let withSpaceName = "Bhalubahal, Ardabhal, kuchinda";
+let removeSpaceName = withSpaceName.replaceAll(" ", "");
+console.log("\n",removeSpaceName,"\n");
