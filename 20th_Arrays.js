@@ -14,4 +14,3 @@ console.log("Old array data:", names);
 // chaning the value
 names[1] = "Rashmi";
 console.log("Now one string change and this is the print:", names, "\n");
-
