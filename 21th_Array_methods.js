@@ -35,4 +35,27 @@ console.log("This is the full array:", friends, "\n");
 
 // 7) delete()
 console.log("Now Delete outpout this give:", delete info[0]);
-console.log("In array print showing this:", info);
+console.log("In array print showing this:", info, "\n");
+
+// 8) Sort()
+
+let shortData = [
+  1,
+  23,
+  33,
+  3224,
+  5,
+  6,
+  "Rupesh",
+  "manas",
+  2.34,
+  4.66,
+  true,
+  undefined,
+  null,
+];
+console.log(shortData.sort());
+
+// 9) reverse()
+let nameReverse = ["Rupesh", "Manas", "Adii", "Amiya"];
+console.log(nameReverse.reverse());
