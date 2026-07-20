@@ -1,1 +1,3 @@
-item.slice(3,7)
+function add(number) {
+//   return number + number;
+// }
