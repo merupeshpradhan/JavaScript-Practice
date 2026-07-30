@@ -1,0 +1,1 @@
+alert("Welcome to alert(), prompt() & conform() Practice.")
