@@ -1,11 +1,11 @@
 /* Use javaScript to create a game of snake, water & Gun. The game should ask you to enter S, W and G. The computer should be value to randomly generate S, W and G and declare Win or Loss using alert Use confirm and prompt where required {Here use Math.random() for getting nambur numbers} */
 
 let winner = document.getElementById("winner");
-let btn = document.getElementById("btn");
+let button = document.getElementById("btn");
 let choices = ["S", "W", "G"];
 let randomSelect;
 
-btn.onclick = function () {
+function playSnakeWaterGun() {
   let userChoice = prompt(
     "Enter S for Snake, W for Water and G for Gun",
   ).toUpperCase();
@@ -53,7 +53,7 @@ btn.onclick = function () {
 
   if (choices[randomSelect] === "G" && userChoice === "S") {
     winner.textContent = "Winner is Gun";
-    alert("You Lost! Gun kills Snkae.");
+    alert("You Lost! Gun kills snake.");
   }
 
   if (choices[randomSelect] === "G" && userChoice === "W") {
@@ -61,3 +61,6 @@ btn.onclick = function () {
     alert("You Lost! Water rusts/damps Gun.");
   }
 };
+
+// Action Practice
+button.addEventListener("click", playSnakeWaterGun); 
