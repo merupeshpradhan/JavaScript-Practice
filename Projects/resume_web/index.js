@@ -1,0 +1,2 @@
+function toggleInfo(id) {
+}
