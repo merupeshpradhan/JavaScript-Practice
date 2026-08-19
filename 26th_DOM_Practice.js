@@ -33,7 +33,9 @@ function checkTable() {
   if (tbody) {
     document.getElementById("result").textContent =
       "Yes, tbody exists in the DOM.";
+    alert("Yes, tbody exists in the DOM.");
   } else {
-    document.getElementById("result").textContent = "No tbody found "
+    document.getElementById("result").textContent = "No tbody found.";
+    alert("No tbody found.");
   }
 }
