@@ -27,15 +27,21 @@ const body = document.body;
 // body.append(nav);
 
 /* 2) Create a table without tbody. Now use "view page source" button to check whether it has a tbody or not */
-function checkTable() {
-  const tbody = document.querySelector("table tbody");
+// function checkTable() {
+//   const tbody = document.querySelector("table tbody");
 
-  if (tbody) {
-    document.getElementById("result").textContent =
-      "Yes, tbody exists in the DOM.";
-    alert("Yes, tbody exists in the DOM.");
-  } else {
-    document.getElementById("result").textContent = "No tbody found.";
-    alert("No tbody found.");
-  }
-}
+//   if (tbody) {
+//     document.getElementById("result").textContent =
+//       "Yes, tbody exists in the DOM.";
+//     alert("Yes, tbody exists in the DOM.");
+//   } else {
+//     document.getElementById("result").textContent = "No tbody found.";
+//     alert("No tbody found.");
+//   }
+// }
+
+/* Create a element with 3 children. Now change the color of first and last element to green */
+const elements = document.querySelectorAll("div p");
+elements[0].style.color = "red";
+// elements[2].style.color = "red";
+elements[elements.length - 1].style.color = "red";
