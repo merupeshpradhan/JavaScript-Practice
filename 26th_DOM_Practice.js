@@ -40,8 +40,21 @@ const body = document.body;
 //   }
 // }
 
-/* Create a element with 3 children. Now change the color of first and last element to green */
-const elements = document.querySelectorAll("div p");
-elements[0].style.color = "red";
-// elements[2].style.color = "red";
-elements[elements.length - 1].style.color = "red";
+/* 3)Create a element with 3 children. Now change the color of first and last element to green */
+// const firstElement = (document.getElementsByTagName(
+//   "div",
+// )[0].firstElementChild.style.color = "green");
+// const secondElement = (document.getElementsByTagName(
+//   "div",
+// )[0].lastElementChild.style.color = "green");
+
+// const elements = document.querySelectorAll("div p");
+// elements[0].style.color = "green";
+// // elements[2].style.color = "red";
+// elements[elements.length - 1].style.color = "green";
+
+/* 4) write a jaaScript code to change background of all <li> tags to cyan */
+// const lists = document.getElementsByTagName("li");
+// Array.from(document.getElementsByTagName("li")).forEach((list) => {
+//   list.style.background = "red";
+// });
