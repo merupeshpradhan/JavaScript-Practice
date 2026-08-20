@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchese amount count</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Budget Tracker</h1>
+    <div class="container">
+        <form id="budget-form" onsubmit="addBudget(event)">
+            <input id="description" type="text"
+                placeholder="Enter income/expense description">
+            <input id="amount" type="number" placeholder="Enter amount">
+            <select id="type">
+                <option value="income">income</option>
+                <option value="expense">expense</option>
+            </select>
+            <button type="submit">Add</button>
+        </form>
+        <div id="budget-display">
+            <p>Total-budget: <span id="total-budget">$0</span></p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
