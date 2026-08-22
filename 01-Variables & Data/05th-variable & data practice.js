@@ -9,7 +9,7 @@ console.log(res);
 console.log(typeof res);
 
 // 3) Create a const Object in javaScript can you change it to hold a number later.
-const name = "Rupesh";
+// const name = "Rupesh";
 // name = "pradhan";
 // console.log(name);
 // the name can not change aagain in const 
